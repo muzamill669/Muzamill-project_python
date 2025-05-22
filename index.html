@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Muzamill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images\icon.jpg">
+    <script src="https://kit.fontawesome.com/5c23664b7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\Logo.jpg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>C++</p>
+                <p>JAVA</P>
+                <p>PYTHON</P>
+                <p>C#</p>
+                <h1>Hi, I'm <span>Muzamill</span><br> From Karnataka</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about ------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\photo sc.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Bachelor's in Computer Science Graduate |Game Developer | Game Animater. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Programming</span><br>Writing code in languages like C++, C#, or Python to build game mechanics and systems.</li>
+                            <li><span>Problem Solving</span><br>Debugging, optimizing performance, and finding creative solutions to technical challenges.</li>
+                            <li><span>Game Design and understanding</span><br>Knowing how gameplay, balance, and user experience work together.</li>
+                            <li><span>Team work and Collabration</span><br>Collaborating effectively with artists, animators, designers, and other developers.
+</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSLC</span><br>2020-21<br>ST.Joseph Engilsh Medium School<br>Hospet</li>
+                            <li><span>PUC</span><br>2023-24<br>Little Flower Compostie PU college <br>Hospet</li>
+                            <li><span>UNDER GRADUATION</span><br>2025-26<br>BCA in Computer Science<br>National Degree College <br>Hospet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="srvices-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Custom game development</h2>
+                    <p> Learn Game Engines – Start with beginner-friendly engines like Unity, Godot, or Unreal Engine to understand how games are made. Create Small Projects – Build simple games (like a platformer or puzzle game) to practice custom mechanics and design.
+                     Follow Tutorials – Use online tutorials (YouTube, Udemy, freeCodeCamp) to learn coding, animation, and game design step-by-step.
+</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Game Porting</h2>
+                    <p>Learn Cross-Platform Tools – Study game engines like Unity or Godot, which support multiple platforms (PC, mobile, web, etc.) Practice Porting Small Games – Create a simple game and try running it on different platforms (e.g., Windows, Android, WebGL).
+                     Understand Platform Differences – Learn how input methods, screen sizes, and performance vary across devices.</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\game pic.jpg" alt="">
+                    <div class="layer">
+                        <h3>Game development</h3>
+                        <p>
+                            A game developer is a professional who designs, builds, and tests video games for platforms like PC, mobile, and consoles. They work with programming languages, game engines, and creative tools to bring gameplay ideas to life. Game developers may specialize in areas like coding, design, animation, or sound. They often collaborate with artists, writers, and other developers to create engaging and interactive experie</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\photo 2.jpg" alt="">
+                    <div class="layer">
+                        <h3>PERSONAL RESUME</h3>
+                        <p>"Passionate and motivated game development student with hands-on experience using Unity and C#.Skilled in creating 2D/3D games, designing gameplay mechanics, and basic animation.Completed multiple game projects independently and in team settings.
+                          Strong problem-solving skills and a keen eye for engaging game design.Eager to contribute to real-world projects and grow in the game development industry."</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------Contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>muzumuzamilmd@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8073670876</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/_maqs_wood_?igshid=YTA1Njc0MTg3OQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images\muzumill resume.pdf" download class="btn btn2">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+            
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxBBlON8vB0ix5Vgqo7Gs20MAOni21L7KT4Uiih0FVD44gpAF9sr8XR9Fer1v4kiHmJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
